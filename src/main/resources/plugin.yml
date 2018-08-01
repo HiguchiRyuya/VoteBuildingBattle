@@ -1,0 +1,10 @@
+name: KaigunPlsVoteBuildingBattle
+version: ${project.version}
+main: com.kaigun2929.kaigunplsvotebuildingbattle.KaigunPlsVoteBuildingBattle
+
+commands:
+  votebb:
+    descriotion: 建築イベント時の投票コマンドです。運営だけが扱えます
+    usage: /<command>
+    default-permisson: OP
+    permission-message: あなたは実行の権限を持っていないので、
